@@ -224,9 +224,9 @@
 
 .overlay .overlay-menu {
 	position: relative;
-	height: 70%;
+	height: 60%;
 	transform: translateY(-50%);
-	top: 45%;
+	top: 50%;
 	font-size: 1.5em;
 	font-family: Gotham, Helvetica, Arial, sans-serif;
 	font-weight: 700;
@@ -1232,7 +1232,7 @@ img#nu-logo {
     border:2px solid #f7f7f7;
     box-shadow: none;
     padding: 6px;
-    border-radius: 20px;
+    border-radius: 14px;
     margin-bottom: 30px;
 }
 .select {

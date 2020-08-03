@@ -119,7 +119,9 @@ NB: This is the responsive stylesheet of this theme.
   *{
     overflow-x: hidden;
   }
-
+  .mob-hid{
+    display: none;
+  }
   #whatIdo .experience-wrapper #timeline .timeline-block:nth-child(odd) .timeline-content{
     margin-right: 25px;
   }
