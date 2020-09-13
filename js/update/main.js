@@ -92,11 +92,6 @@ document.addEventListener('DOMContentLoaded',function () {
 			return u.Android() || u.BlackBerry() || u.iOS() || u.Opera() || u.Windows()
 		}
 	};
-	u.any() || skrollr.init({
-		render: function (t) {},
-		smoothScrolling: !1,
-		forceHeight: !1
-	});
 	var h = document.querySelectorAll(".contact-input");
 	h.forEach(function (t) {
 		return t.addEventListener("focus", i)
@@ -105,5 +100,4 @@ document.addEventListener('DOMContentLoaded',function () {
 	});
 	var f = document.querySelector("#message"),
 		v = 300;
-	f.addEventListener("input", c)
 });

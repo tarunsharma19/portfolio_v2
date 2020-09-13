@@ -395,7 +395,7 @@ img {
 /*----------- 5. Banner area css starts--------------*/
 
 .banner-area {
-  background-image: url(../images/home/home-bg-2.jpg); /*--edit image--*/
+  background-image: url(../img/home/home-bg-2.jpg); /*--edit image--*/
   background-position: center;
   background-size: cover;
   position: relative;

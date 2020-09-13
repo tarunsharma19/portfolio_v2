@@ -7,14 +7,14 @@
 $from = 'contact@tarun.port';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'cooltarun.pass@gmail.com';
+$sendTo = 'contact@tarundev.com';
 
 // subject of the email
 $subject = 'New message from contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); 
+$fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
@@ -27,7 +27,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
  */
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
-error_reporting(E_ALL & ~E_NOTICE);
+
 
 try
 {
